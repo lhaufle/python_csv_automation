@@ -8,7 +8,7 @@ class Word_Gen:
     #private method to be used when docs are generated
     def __create_doc(self, user_name, address, email, message):
 
-        path = 'C:/Users/lhaufle/Desktop/MassDocs/' + user_name + '.docx'
+        path = 'create your file path/' + user_name + '.docx'
 
         doc = docx.Document()
         doc.add_heading(user_name, 0)
